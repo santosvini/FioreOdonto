@@ -1,11 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  padding-top: 0px;
+html{
+  scroll-behavior: smooth;
 }
 
 .bg-nav {
@@ -13,26 +7,31 @@ body {
 }
 
 .box-shadow {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2),
-              0 4px 4px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+              0 4px 8px 0 rgba(0, 0, 0, 0.8);
 }
 
 #carouselSlider .carousel-inner, 
 #carouselSlider .carousel-item {
-  height: 84vh;
-  padding-top: 2px;
+  height: 86vh;
   border-radius: 2px;
 }
 
 #carouselSlider .carousel-caption {
   top: 10%;
-  color: #736558;
+  color: #404040;
+}
+
+#carouselSlider h3 {
+  font-size: 60px;
+  font-weight: bold;
 }
 
 #carouselSlider .carousel-caption p {
   margin-bottom: 100px;
-  font-size: 22px;
-  color: #736558;
+  font-size: 18px;
+  font-weight: bold;
+  color: #404040;
 }
 
 #carouselSlider .main-btn {
@@ -56,24 +55,26 @@ body {
 } */
  
 #testemonial p {
-  color: #000;
+  line-height: 1.8rem
 }
 
 #about-title {
   text-transform: uppercase;
   font-size: 18px;
+  margin-top: 2rem;
 }
 
 #weare {
   background: #fff;
 }
 
+
 #weare h2::after {
   content: "";
   border-top: 2px solid #000;
   position: absolute;
   width: 15%;
-  top: 80px;
+  top: 90px;
   left: 55%;
 }
 
@@ -98,7 +99,7 @@ body {
 ul > li > a.nav-link {
   font: bolder 16px sans-serif;;
   text-transform: uppercase;
-  color: #D9D0C5 !important;
+  color: #9B8E7D !important;
 }
 
 ul > li > a:hover {
@@ -115,6 +116,16 @@ ul > li > a:hover {
   width: 100%;
 }
 
+#back-to-top {
+  position: fixed;
+  height: 24px;
+  width: 30px;
+  bottom: 4px;
+  right: 20px;
+  //visibility: hidden;
+}
+
+
 @media (max-width: 767px) {
   .fixed-top {
     position: relative;
@@ -125,9 +136,11 @@ ul > li > a:hover {
     height: 100%;
   }
 
-  h3.display-3 {
-    color: #736558;
+  #carouselSlider h3 {
+    position: relative;
+    color: #0D0D0D;
     font-size: 40px;
+    top: 20%;
   }
 
   #carouselSlider .carousel-caption p,
