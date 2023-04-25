@@ -13,13 +13,13 @@ html{
 
 #carouselSlider .carousel-inner, 
 #carouselSlider .carousel-item {
-  height: 86vh;
+  height: 82vh;
   border-radius: 2px;
 }
 
 #carouselSlider .carousel-caption {
   top: 10%;
-  color: #404040;
+  color: #59503F;
 }
 
 #carouselSlider h3 {
@@ -36,7 +36,7 @@ html{
 
 #carouselSlider .main-btn {
   background: #403E3A;
-  color: white;
+  color: #fff;
   width: 120px;
   height: 38px;
   text-transform: uppercase;
@@ -68,7 +68,6 @@ html{
   background: #fff;
 }
 
-
 #weare h2::after {
   content: "";
   border-top: 2px solid #000;
@@ -78,14 +77,21 @@ html{
   left: 55%;
 }
 
-#weare ul > li > i {
+#weare div > ul > li > i {
   height: 1rem;
   padding-left: 0;
   margin-right: 4px;
+  background-color: #EDE0D2;
 }
 
 #weare ul > li {
   line-height: 1.4rem;
+}
+
+#quote {
+  background: url('/assets/imgs/nick-fewings-BPDJLWz_Bog-unsplash.jpg') center center;
+  background-size: cover;
+  height: 40vh; 
 }
 
 #environment {
@@ -125,7 +131,6 @@ ul > li > a:hover {
   //visibility: hidden;
 }
 
-
 @media (max-width: 767px) {
   .fixed-top {
     position: relative;
@@ -138,8 +143,8 @@ ul > li > a:hover {
 
   #carouselSlider h3 {
     position: relative;
-    color: #0D0D0D;
-    font-size: 40px;
+    color: #EDE0D2;
+    font-size: 24px;
     top: 20%;
   }
 
