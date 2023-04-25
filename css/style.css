@@ -8,22 +8,22 @@ html{
 
 .box-shadow {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
-              0 4px 8px 0 rgba(0, 0, 0, 0.8);
+              0 4px 2px 0 rgba(0, 0, 0, 0.6);
 }
 
 #carouselSlider .carousel-inner, 
 #carouselSlider .carousel-item {
-  height: 82vh;
+  height: 88vh;
   border-radius: 2px;
 }
 
 #carouselSlider .carousel-caption {
-  top: 10%;
-  color: #59503F;
+  top: 30%;
+  color: #393228;
 }
 
 #carouselSlider h3 {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: bold;
 }
 
@@ -141,15 +141,23 @@ ul > li > a:hover {
     height: 100%;
   }
 
+  #carouselSlider .carousel-caption p,
   #carouselSlider h3 {
-    position: relative;
-    color: #EDE0D2;
-    font-size: 24px;
-    top: 20%;
+    display: none;
+    /* position: relative;
+    color: darksalmon;
+    font-size: 40px;
+    font-weight: normal;
+    top: 48%; */
   }
 
-  #carouselSlider .carousel-caption p,
   #carouselSlider .carousel-caption button {
-    display: none;
+    position: relative;
+    font-weight: normal;
+    top: 55%
+  }
+
+  .blockquote footer {
+    font-size: 16px;
   }
 }
