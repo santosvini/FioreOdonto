@@ -49,10 +49,6 @@ html{
   background-color: #403E3A;
   color: #f9f9f9;
 }
-
-/* #testemonial {
-  background: #A6998A;
-} */
  
 #testemonial p {
   line-height: 1.8rem
@@ -72,7 +68,7 @@ html{
   content: "";
   border-top: 2px solid #000;
   position: absolute;
-  width: 15%;
+  width: 10%;
   top: 90px;
   left: 55%;
 }
@@ -122,11 +118,15 @@ ul > li > a:hover {
   width: 100%;
 }
 
+#copy {
+  margin-top: 40px;
+}
+
 #back-to-top {
   position: fixed;
   height: 24px;
   width: 30px;
-  bottom: 4px;
+  bottom: 8px;
   right: 20px;
   //visibility: hidden;
 }
@@ -141,20 +141,21 @@ ul > li > a:hover {
     height: 100%;
   }
 
+  .carousel-indicators .active {
+    background-color: salmon;
+    color: #fff;
+  }
+
   #carouselSlider .carousel-caption p,
   #carouselSlider h3 {
     display: none;
-    /* position: relative;
-    color: darksalmon;
-    font-size: 40px;
-    font-weight: normal;
-    top: 48%; */
   }
 
   #carouselSlider .carousel-caption button {
+    background: lightsalmon;
     position: relative;
     font-weight: normal;
-    top: 55%
+    top: 12%;
   }
 
   .blockquote footer {
